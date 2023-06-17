@@ -1,6 +1,6 @@
-## Project Two - Ideas
+# Other Ideas
 
-## 💡Idea: Contact Lens Parameter Database (enter spec Rx, give options based on Rx etc)
+## 💡Idea 2: Contact Lens Parameter Database (enter spec Rx, give options based on Rx etc)
 
 ### User: Optometrist
 
@@ -14,7 +14,7 @@ Allow searching for power, or nearest power match based on adjustable criteria, 
 
 A good, real-world, monetizable app with only limited (paper!) competition
 
-## 💡Idea: Spectacle product information (frame, lenses, warranty)
+## 💡Idea 3: Spectacle product information (frame, lenses, warranty)
 
 ### User: Optometrist/Optical Retailer
 
@@ -26,7 +26,7 @@ Based on the spectacle frame and lens chosen, the consumer can log in to a websi
 
 A good, real-world, monetizable app with no competition
 
-## 💡Idea: Check details Questionnaire (prefilled web form)
+## 💡Idea 4: Check details Questionnaire (prefilled web form)
 
 ### User: Health Clinic, Personal Services Clinic
 
@@ -39,19 +39,3 @@ Give a web-based, prefilled survey that allows the patient to confirm, change or
 Two modes, front desk where the staff selects the patient so the patient receives, say, a tablet with the survey, or the patient is given a unique code via text or email that allows them to log in.
 
 The key difference here is that it is platform-independent and I haven't found a system that pre-loads the known information to save the hassles.
-
-## 💡Idea: Informational report generator
-
-### User: Health Clinic/Consultant/Many businesses
-
-40-80% of advice given to patients is forgotten immediately. Information in written form helps to clarify and reinforce important messages and advice and instructions. Paper leaflets are sometimes provided, but it is a burden to keep these up-to-date and printed in the appropriate quanity to ensure they are on hand and that money is not wasted on printing. There can be a reluctance to give them out if the patient or customer believes they can remember what was said, in a normal over-estimation of their own ability to recall information.
-
-#### ✅Proposal
-
-Using a web-based form to select from a list of pre-written information templates, with the option to add custom information, will generate a HTML page dynamically that can either be viewed online through a login or sent via an HTML email directly to the patient.
-
-- Eg: You are myopic – here are some facts
-- Everything is fine: see you in two years unless you have problems
-- Here is how to clean your eyelash line to avoid infection and improve your dry-eye
-- Thanks for visiting: here is some information about your visit and your practitioner, and when you should return.
-- Suggest use markdown and use an npm package to convert it to html
