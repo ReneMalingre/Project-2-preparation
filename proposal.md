@@ -14,7 +14,7 @@ Lets create an application that allows a business owner/administrator to give a 
 
 The business owner will enrol the client as a user for a web application, providing the client a single-use token that allows them to create an account using their known email address. The business owner will then use a web-based interface to select from a list of pre-written fact sheets, with the option to append custom information and attach them to the user file.
 
-When the user logs on, they will be able to see the list of fact-sheets, and then click on one of them to view the information. The user will be able to open the fact sheet in a new tab, and use browser functions to print it, copy it or print it.
+When the user logs on, they will be able to see the list of fact-sheets, and then click on one of them to view the information. The user will be able to open the fact sheet in a new tab, and use browser functions to print it, copy it or save it.
 
 The user will be able to log out, and log back in to view the fact sheets again, and add their own comments to the fact-sheets.
 
