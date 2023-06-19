@@ -1,31 +1,5 @@
 # Project Two - Proposal
 
-## Requirements, according to the tutor
-
-- MySQL, sequelize, express, node, handlebars, express-sessions, sequelize-sessions
-- **one other npm package**
-- There should be a landing page that explains the purpose of the app and invites the user to log in or sign up
-- login, sign-up, logout
-- at least one other page that can only accessible by a logged in user
-- must be a one-to-many or many-to-many relationship between two models
-- must have complete CRUD functionality for at least one of the models
-- must have a user model and at least one other model
-- should have home route for page navigation
-- should have user route for user functions
-- should have at least one other route for other functions
-- must display data from the database on the page
-
-## Suggested work breakdown
-
-- wireframe the app
-- design the database schema
-
-- split the work into tasks
-  - one person working on the database (model)
-  - one person working on the routes
-  - one person working on the views (handlebars)
-  - one person working on the front end javascript to consume the API
-
 ## My Ideas
 
 ## 💡Informational Fact Sheet Generator - *InfoPulse*
@@ -36,14 +10,23 @@
 
 #### ✅Proposal
 
-Using a web-based form to select from a list of pre-written fact sheets, with the option to add custom information, will generate a HTML page dynamically that can either be viewed online through a login or (extension to MVP) sent via an HTML email directly to the patient.
+Lets create an application that allows a business owner/administrator to give a client access to one or more fact sheets that are optionally personalised to ensure they have correct instructions or information relevant to them, enhancing the value they gain from using the services of the business.
 
-- Eg: You are myopic – here are some facts
-- Everything is fine: see you in two years unless you have problems
-- Here is how to clean your eyelash line to avoid infection and improve your dry-eye
-- Thanks for visiting: here is some information about your visit and your practitioner, and when you should return.
-- Suggest fact sheets are edited in markdown and use an npm package to convert it to html.
-- Ability to add images to the fact sheets to enhance the information.
+The business owner will enrol the client as a user for a web application, providing the client a single-use token that allows them to create an account using their known email address. The business owner will then use a web-based interface to select from a list of pre-written fact sheets, with the option to append custom information and attach them to the user file.
+
+When the user logs on, they will be able to see the list of fact-sheets, and then click on one of them to view the information. The user will be able to open the fact sheet in a new tab, and use browser functions to print it, copy it or print it.
+
+The user will be able to log out, and log back in to view the fact sheets again.
+
+A business will be able to add new fact sheets, edit existing fact sheets, and delete fact sheets.
+
+A business will be able to add new users, edit existing users, and delete users.
+
+A business administrator will be able to add new administrators who can add new fact sheets, edit existing fact sheets, and delete fact sheets.
+
+The fact sheets will be in entered in as markdown, and converted to HTML for display by an npm package.
+
+Images will be able to be uploaded and attached to the fact sheets as a markdown link in the normal way, and will be displayed in the HTML, with an interface in the edit screen to insert a link into the markdown text. The images will be saved in the database as a BLOB, and will be able to be displayed in the HTML using a normal GET request.
 
 ### User Story
 
@@ -170,3 +153,29 @@ Text: For primary text, you can use Dark Blue (#31557F) and Dark Grey (#333333) 
 Highlights / Accents: Viridian (#4A7C59) can be used as an accent color for highlights, icons, or to draw attention to specific areas.
 
 Borders / Dividers / Shadows: Light Blue (#5698C6) and Viridian (#4A7C59) can be used for borders, dividers, or shadows, creating depth and definition.
+
+## Requirements, according to the tutor
+
+- MySQL, sequelize, express, node, handlebars, express-sessions, sequelize-sessions
+- **one other npm package**
+- There should be a landing page that explains the purpose of the app and invites the user to log in or sign up
+- login, sign-up, logout
+- at least one other page that can only accessible by a logged in user
+- must be a one-to-many or many-to-many relationship between two models
+- must have complete CRUD functionality for at least one of the models
+- must have a user model and at least one other model
+- should have home route for page navigation
+- should have user route for user functions
+- should have at least one other route for other functions
+- must display data from the database on the page
+
+## Suggested work breakdown
+
+- wireframe the app
+- design the database schema
+
+- split the work into tasks
+  - one person working on the database (model)
+  - one person working on the routes
+  - one person working on the views (handlebars)
+  - one person working on the front end javascript to consume the API
