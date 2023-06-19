@@ -37,7 +37,7 @@ so that I can ensure that my client has the correct information and/or instructi
 
 As a business owner I want to be able to add custom information to the fact sheets so that I can ensure that the information is personalised to the client.
 
-As a business owner I want to authorised users to be able to create, edit and delete the fact sheets so that I can ensure that the information is up-to-date and relevant.
+As a business owner I want to allow authorised users to be able to create, edit and delete the fact sheets so that I can ensure that the information is up-to-date and relevant.
 
 As a business owner I want to create and edit the fact sheets using markdown syntax and convert it to html using an npm package (marked or markdown-it or markdown-js or markdown-to-html) so that I can ensure that the information is formatted correctly and is easy to read.
 
@@ -81,12 +81,12 @@ As the owner of the service I want to provide customised branding for the servic
   - Username
   - Password
 - Sign up page: Owner/Administrator/Staff
-  - Permission Code (created using generate-passphrase)
+  - Permission Code (created using *generate-passphrase*)
   - Email (whitelisted in database)
   - Username
   - Password
 - Sign up page: client  - same interface as administrator?
-  - Permission Code (created using generate-passphrase)
+  - Permission Code (created using *generate-passphrase*)
   - Email (whitelisted in database)
   - Username
   - Password
@@ -104,13 +104,13 @@ As the owner of the service I want to provide customised branding for the servic
 
 ## 🎨 Design Elements
 
-#### Font
+### Font
 
 <https://fonts.google.com/specimen/Roboto>
 
-#### Color Scheme
+### Color Scheme
 
-Healthcare and medical services often use blue tones for their calming, professional, and trustworthy associations. Here are a few color combinations:
+Healthcare and medical services often use blue tones for their calming, professional, and trustworthy associations. This is a good colour combination:
 
 Classic Medical Palette:
 
@@ -154,9 +154,14 @@ Borders / Dividers / Shadows: Light Blue (#5698C6) and Viridian (#4A7C59) can be
 
 - wireframe the app
 - design the database schema
+- set up the repository
+- set up the file system
+- set up eslint and prettier
 
-- split the work into tasks
+- split the work into tasks:
   - one person working on the database (model)
   - one person working on the routes
   - one person working on the views (handlebars)
   - one person working on the front end javascript to consume the API
+
+  I'm happy to work on anything, but I think I'm best suited to the model as it is the backbone of the application and it is my idea. I can work on converting the markdown to html, and saving and retrieving the images, and on generating the single-use pass phrase.
